@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SnappyAI</title>
+    <link rel="stylesheet" href="chatbot.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"> snappy ai </a>
+        <ul>
+            <li><a href="website.html" class="active">Home</a></li>
+            <li><a href="index.html">Login</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="sad" id="headPhone">
+            <span style="--i:0"></span>
+            <span style="--i:1"></span>
+            <span style="--i:2"></span>
+            <span style="--i:3"></span>
+            <button onclick="startRecording()">SnappyAI</button>
+            <button onclick="stopRecording()">Stop</button>
+            <button onclick="processAudio()">Process</button>
+        </div>
+        <div class="btn" id="result">
+        </div>
+    
+    </section>
+    <form action="" method="get"></form>
+    <div class="input-box">
+        <input type="text" placeholder="Message SnappyAI">
+        <button type="submit">
+        <i class='bx bxs-send' ></i>
+        <box-icon type='solid' name='lock'></box-icon></button>
+    </div>
+
+    <script type='text/javascript' src="index.js"></script>  
+
+</body>
+</html>
